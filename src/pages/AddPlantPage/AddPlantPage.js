@@ -1,4 +1,4 @@
-import './AddPlantPage.css';
+import './AddPlantPage.scss';
 
 
 function AddPlantPage() {
