@@ -1,0 +1,30 @@
+
+
+.header{
+    position: sticky;
+  z-index: 1000;
+  top: 0px;
+  display: flex;
+  background-color: rgb(11, 84, 115, 1);
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  max-height: 3vh;
+  padding: 1rem;
+
+  &__title{
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  &__logo{
+    max-height: 25px;
+    padding: 0.3rem;
+    align-self: flex-end;
+  }
+}
