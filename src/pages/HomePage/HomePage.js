@@ -13,7 +13,6 @@ function HomePage() {
   // ));
   return (
     <div className="App">
-      <h1>This is HOME PAGE</h1>
       <CircleButton />
       {/* <div className="draggable-container">{draggableItems}</div> */}
     </div>
