@@ -1,15 +1,21 @@
 import "./Header.scss";
 import { Link } from "react-router-dom";
-
+import avatar from "../../assets/avatar.png";
+import bell from "../../assets/bell.png";
 
 function Header() {
   return (
-    <div className="header">
-      {/* <Link to="/home">
-        {/* <img src={logo} alt='navbar logo' aria-label="the logo is a picture of a plant" className="header__logo"></img> */}
-      {/* </Link> */} 
-        <h1 className="header__title">Growtopia</h1>
-    </div>
+    <>
+      <div className="header">
+        <Link to="/home" >
+          <h2 className="header__title">Growtopia</h2>
+        </Link>
+      </div>
+      <div className="header-icons">
+        <image src={bell} className="icon"></image>
+        <image src={avatar} className="avatar"></image>
+      </div>
+    </>
   );
 }
 
