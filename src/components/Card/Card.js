@@ -11,9 +11,14 @@ function Card({ title, body, image }) {
       </div>
       <div className="info-button-container">
         <div className="card-body">{body}</div>
-        
-          <button className="card-button"><Link to="/plants/1" className="link">+</Link></button>
-        
+        <div className="more-info-button">
+          <p>
+            <Link to="/plants/1" className="link">
+              More Info
+            </Link>
+          </p>
+          <button className="card-button">+</button>
+        </div>
       </div>
     </div>
   );

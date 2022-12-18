@@ -24,10 +24,9 @@
     width: 30px;
     border: none;
     color: #FFFBD8;
-    align-self: flex-end;
     padding: 5px;
     border-radius: 70%;
-    margin-top: 1rem;
+  
     
 }
 
@@ -38,4 +37,10 @@
 
 .link{
     color: #FFFBD8;
+}
+.more-info-button{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
 }
