@@ -5,12 +5,31 @@
     padding-bottom: 1rem;
     background-color: #2F5B33;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
 }
 
 p{
     color: #FFFBD8;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 .single-plant-image{
     width: 100%;
+}
+
+.tomato-title{
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.card-button-tomato{
+    background-color: #529459;
+    height: 30px;
+    width: 30px;
+    border: none;
+    color: #FFFBD8;
+    align-self: center;
+    padding: 5px;
+    border-radius: 70%;
+    margin-top: 1rem;
 }
