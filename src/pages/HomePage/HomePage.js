@@ -1,20 +1,19 @@
 import "./HomePage.scss";
 import CircleButton from "../../components/CircleButton/CircleButton";
+import React, { useState, useEffect } from "react";
+
+import CPButton from "../../components/CPButton/CPButton";
 import DraggableDiv from "../../components/DraggableDiv/DraggableDiv";
 import { data } from "../../data/user";
-
 function HomePage() {
-  // const plants = data.get("plants");
-  // console.log(plants);
-  // const utilities = data.get("utilities");
-
-  // const draggableItems = data.map((item) => (
-  //   <DraggableDiv key={item.id} name={item.name} />
-  // ));
   return (
     <div className="App">
+      <CPButton />
+      <DraggableDiv />
       <CircleButton />
-      {/* <div className="draggable-container">{draggableItems}</div> */}
+      <img 
+        className="background"
+        src="https://i.imgur.com/ftThhhs.png" alt="" />
     </div>
   );
 }

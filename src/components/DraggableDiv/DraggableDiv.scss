@@ -1,0 +1,42 @@
+// .drag_image {
+//   position: absolute;
+//   left: 35px;
+//   top: 26vh;
+//   z-index: 100;
+//   opacity: 0.8;
+//   pointer-events: none;
+// }
+// .imageDrag{
+//     width: 32px;
+//     height: 32px;
+//     z-index: 100;
+// }
+// .drag_image {
+//     position: absolute;
+//     left: 35px;
+//     top: 26vh;
+//     z-index: 99;
+//     opacity: 0.8;
+//     pointer-events: none;
+//   }
+  
+//   .imageDrag {
+//     width: 32px;
+//     height: 32px;
+//     z-index: 100;
+//   }
+  .drag_image::before {
+
+    position: fixed;
+    left: 35px;
+    top: 35vh;
+    z-index: 99;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 100;
+  }
+  
+  .imageDrag {
+    width: 32px;
+    height: 32px;
+  }
