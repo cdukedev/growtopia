@@ -25,10 +25,15 @@
     align-self: flex-end;
     padding: 5px;
     border-radius: 70%;
+    margin-top: 1rem;
     
 }
 
 .info-button-container{
     display: flex;
     flex-direction: column;
+}
+
+.link{
+    color: #FFFBD8;
 }
