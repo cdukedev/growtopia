@@ -8,7 +8,10 @@ function Card({ title, body, image }) {
         <img src={image} className="card-image" />
         <h4>{title}</h4>
       </div>
-      <div className="card-body">{body}</div>
+      <div className="info-button-container">
+        <div className="card-body">{body}</div>
+        <button className="card-button">+</button>
+      </div>
     </div>
   );
 }
