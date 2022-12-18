@@ -1,3 +1,5 @@
+
+
 .card-image{
     max-width: 100px;
 }
@@ -22,13 +24,23 @@
     width: 30px;
     border: none;
     color: #FFFBD8;
-    align-self: flex-end;
     padding: 5px;
     border-radius: 70%;
+  
     
 }
 
 .info-button-container{
     display: flex;
     flex-direction: column;
+}
+
+.link{
+    color: #FFFBD8;
+}
+.more-info-button{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
 }
