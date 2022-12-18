@@ -9,7 +9,6 @@
   color: white;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   text-decoration: none;
   max-height: 3vh;
   padding: 1rem;
@@ -17,8 +16,8 @@
   &__title{
     text-decoration: none;
     color: white;
-    align-self: center;
-    justify-content: center;
+    align-self: flex-start;
+    justify-content: left;
     margin: 0;
   }
 
