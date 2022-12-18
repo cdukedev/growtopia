@@ -1,5 +1,6 @@
 import "./HomePage.scss";
 import CircleButton from "../../components/CircleButton/CircleButton";
+import CPButton from "../../components/CPButton/CPButton";
 import DraggableDiv from "../../components/DraggableDiv/DraggableDiv";
 import { data } from "../../data/user";
 
@@ -13,6 +14,7 @@ function HomePage() {
   // ));
   return (
     <div className="App">
+      <CPButton />
       <CircleButton />
       {/* <div className="draggable-container">{draggableItems}</div> */}
     </div>
