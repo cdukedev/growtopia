@@ -41,8 +41,8 @@ function DraggableDiv(props) {
     cp: "286",
   });
   console.log(data.utilities[0].link);
-  const [x, setX] = useState(props.x);
-  const [y, setY] = useState(props.y);
+  const [x, setX] = useState(garden.garden.x - 100);
+  const [y, setY] = useState(garden.garden.y);
   const [isDragging, setIsDragging] = useState(false);
 
   // Add a mousemove event listener to the window object
@@ -78,8 +78,8 @@ function DraggableDiv(props) {
           key={item.id}
           className="draggable"
           style={{
-            top: y,
-            left: x,
+            top: x,
+            left: y,
             position: "absolute",
             opacity: isDragging ? 0.5 : 1,
           }}
